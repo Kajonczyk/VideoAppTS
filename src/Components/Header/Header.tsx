@@ -1,6 +1,7 @@
 import * as React from "react";
 import { StyledHeader, StyledH1, StyledWrapper } from "./HeaderStyles";
 import { ThemeButton } from "./ThemeButton";
+import { MobileMenu } from "./MobileMenu/MobileMenu";
 
 export interface ThemeButtonProps {
   changeTheme(): void;
@@ -11,7 +12,7 @@ export const Header: React.FC<ThemeButtonProps> = ({ changeTheme }) => {
       <StyledH1>VideoApp</StyledH1>
       <StyledWrapper>
         <ThemeButton changeTheme={changeTheme} />
-        <div className="menu">m</div>
+        <MobileMenu />
       </StyledWrapper>
     </StyledHeader>
   );

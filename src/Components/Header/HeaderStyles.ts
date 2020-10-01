@@ -9,7 +9,7 @@ export const StyledHeader = styled.header`
   color: ${({ theme }: { theme: Theme }) => theme.menuColor};
   line-height: 40px;
   margin-bottom: 70px;
-  padding: 0px 20px;
+  padding: 0px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,6 +23,6 @@ export const StyledH1 = styled.h1`
 export const StyledWrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 80px;
+  width: 85px;
   justify-content: space-between;
 `;
